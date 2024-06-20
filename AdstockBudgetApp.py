@@ -14,7 +14,7 @@ def currency(x, pos):
     return '${:,.0f}'.format(x)
 
 # Streamlit app
-st.title('Orvis LiftLab Media Mix Model Results Adstock Adjustment Tool')
+st.title('MMM Results Adstock Adjustment Tool')
 
 # Margin slider
 fixed_margin = st.sidebar.slider('Set the margin', 0.0, 1.0, 0.35, 0.01)
